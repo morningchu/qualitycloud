@@ -1,0 +1,37 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "23.0.2"
+    defaultConfig {
+        applicationId "com.midian.qualitycloud"
+        minSdkVersion 17
+        targetSdkVersion 21
+
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_7
+            targetCompatibility JavaVersion.VERSION_1_7
+        }
+    }
+    aaptOptions {         cruncherEnabled = false     }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile project(':baseLib')
+    compile project(':configlib')
+    compile project(':login')
+    compile project(':midianAfinal')
+    compile project(':social_sdk_library_project')
+    compile project(':baidu_Push_SDK_library_project')
+    compile project(':standardReader')
+    compile 'com.android.support:support-v4:21.0.3'
+    compile files('libs/BaiduLBS_Android.jar')
+    compile files('libs/locSDK_6.12.jar')
+}

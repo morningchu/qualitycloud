@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/grid_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0.5dp"
+        android:layout_marginRight="0.5dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="@drawable/bg_round_rec_white"
+        android:text="贵州"
+        android:textColor="@color/text_bg20"
+        android:textSize="15.4sp" />
+
+</LinearLayout>

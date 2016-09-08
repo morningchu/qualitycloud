@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/test10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawablePadding="15dp"
+                android:drawableTop="@drawable/bg_test10"
+                android:gravity="center_horizontal"
+                android:text="科研教育"
+                android:textColor="@color/text_bg22"
+                android:textSize="13.4sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/test11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawablePadding="15dp"
+                android:drawableTop="@drawable/bg_test11"
+                android:gravity="center_horizontal"
+                android:text="安全生产"
+                android:textColor="@color/text_bg22"
+                android:textSize="13.4sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/test12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawablePadding="15dp"
+                android:drawableTop="@drawable/bg_test12"
+                android:gravity="center_horizontal"
+                android:text="建材"
+                android:textColor="@color/text_bg22"
+                android:textSize="13.4sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/test13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawablePadding="15dp"
+                android:drawableTop="@drawable/bg_test13"
+                android:gravity="center_horizontal"
+                android:text="铁道"
+                android:textColor="@color/text_bg22"
+                android:textSize="13.4sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/test14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawablePadding="15dp"
+                android:drawableTop="@drawable/bg_test14"
+                android:gravity="center_horizontal"
+                android:text="交通"
+                android:textColor="@color/text_bg22"
+                android:textSize="13.4sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/test15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawablePadding="15dp"
+                android:drawableTop="@drawable/bg_test15"
+                android:gravity="center_horizontal"
+                android:text="食品、微生物"
+                android:textColor="@color/text_bg22"
+                android:textSize="13.4sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/test16"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawablePadding="15dp"
+                android:drawableTop="@drawable/bg_test16"
+                android:gravity="center_horizontal"
+                android:text="建设工程及室内空气"
+                android:textColor="@color/text_bg22"
+                android:textSize="13.4sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/test17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawablePadding="15dp"
+                android:drawableTop="@drawable/bg_test17"
+                android:gravity="center_horizontal"
+                android:text="卫生医药"
+                android:textColor="@color/text_bg22"
+                android:textSize="13.4sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/test18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawablePadding="15dp"
+                android:drawableTop="@drawable/bg_test18"
+                android:gravity="center_horizontal"
+                android:text="煤炭"
+                android:textColor="@color/text_bg22"
+                android:textSize="13.4sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

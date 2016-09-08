@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="244dp"
+        android:background="@color/green"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <midian.baselib.widget.BaseLibTopbarView
+            android:id="@+id/topbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/state_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/icon_scan_good" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp" >
+
+            <Button
+                android:id="@+id/state_btn"
+                android:layout_width="188.2dp"
+                android:layout_height="46dp"
+                android:background="@drawable/result_text_bg"
+                android:gravity="center"
+                android:text="符合要求使用"
+                android:textColor="@color/white"
+                android:textSize="23sp" />
+
+            <ImageView
+                android:id="@+id/state_tv"
+                android:layout_width="20dp"
+                android:layout_height="46dp"
+                android:layout_alignRight="@+id/state_btn"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_state" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="信息更新:"
+                android:textColor="@color/white"
+                android:textSize="11.5sp" />
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2015.08.01"
+                android:textColor="@color/white"
+                android:textSize="11.5sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <midian.baselib.widget.PagerSlidingTabStrip
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="42dip"
+        android:background="@android:color/transparent"
+        app:pstsDividerColor="@color/dp_divider_line"
+        app:pstsDividerPadding="13dp"
+        app:pstsIndicatorColor="@color/green"
+        app:pstsIndicatorHeight="2dip"
+        app:pstsShouldExpand="true"
+        app:pstsTabPaddingLeftRight="1dip"
+        app:pstsUnderlineColor="@color/green"
+        app:pstsUnderlineHeight="0px" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/divide_line" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/white" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/divide_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/inform_relative"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/default_button_white" >
+
+            <TextView
+                android:id="@+id/inform"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawablePadding="5dp"
+                android:drawableTop="@drawable/tab_inform_n"
+                android:gravity="center_horizontal"
+                android:text="投诉"
+                android:textColor="@color/text_bg60"
+                android:textSize="10.6sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/divide_line" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/default_button_white" >
+
+            <TextView
+                android:id="@+id/exposure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawablePadding="5dp"
+                android:drawableTop="@drawable/tab_exposure_n"
+                android:gravity="center_horizontal"
+                android:text="曝光台"
+                android:textColor="@color/text_bg60"
+                android:textSize="10.6sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/divide_line" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/default_button_white" >
+
+            <TextView
+                android:id="@+id/map"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawablePadding="5dp"
+                android:drawableTop="@drawable/tab_map_n"
+                android:gravity="center_horizontal"
+                android:text="地图"
+                android:textColor="@color/text_bg60"
+                android:textSize="10.6sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/divide_line" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/default_button_white" >
+
+            <TextView
+                android:id="@+id/like"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawablePadding="5dp"
+                android:drawableTop="@drawable/bg_collect_like"
+                android:gravity="center_horizontal"
+                android:text="关注"
+                android:textColor="@color/text_bg60"
+                android:textSize="10.6sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white" >
+
+    <com.pdfread.standardreader.views.BaseLibTopbarView
+        android:id="@+id/topbar_cata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <include
+        android:id="@+id/catagory_title_layout"
+        layout="@layout/top_title_layout"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/topbar_cata"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@android:color/white" >
+
+        <RelativeLayout
+            android:id="@+id/edit_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/search_bg" >
+
+            <ImageView
+                android:id="@+id/img_cata_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="8dp"
+                android:src="@drawable/psearch" />
+
+            <EditText
+                android:id="@+id/editText_cata"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/img_cata_search"
+                android:background="@android:color/transparent"
+                android:ems="10"
+                android:hint="请输入查询信息"
+                android:imeOptions="actionSearch"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:textColor="@android:color/black" >
+
+                <requestFocus />
+            </EditText>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_ca"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_below="@id/relativeLayout2"
+        android:background="@color/app_bg"
+        android:orientation="horizontal" />
+
+    <com.pdfread.standardreader.views.XListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ll_ca"
+        android:divider="@color/app_bg"
+        android:dividerHeight="10dp"
+        android:listSelector="@android:color/transparent"
+        android:scrollbarStyle="outsideOverlay" >
+    </com.pdfread.standardreader.views.XListView>
+
+</RelativeLayout>

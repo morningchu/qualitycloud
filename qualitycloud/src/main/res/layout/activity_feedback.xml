@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/window_bg"
+    android:orientation="vertical" >
+
+    <midian.baselib.widget.BaseLibTopbarView
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/white"
+        android:gravity="top"
+        android:hint="有什么建议需要反馈呢？"
+        android:textColor="@color/text_bg60"
+        android:textSize="15sp"
+        android:padding="15dp" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="210dp"
+        android:layout_height="41.3dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="68.8dp"
+        android:layout_marginTop="182.4dp"
+        android:background="@drawable/bg_rectangle_green"
+        android:text="提交反馈"
+        android:textColor="#FFFFFFFF"
+        android:textSize="17.3sp" />
+
+</LinearLayout>

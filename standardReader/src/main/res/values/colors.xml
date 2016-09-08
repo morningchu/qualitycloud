@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="navigation_color_normal">#6C6A69</color>
+    <color name="navigation_color_checked">#9AC3F9</color>
+    <color name="gray">#999999</color>
+    <color name="gray_bg">#F4F4F4</color>
+    <color name="item_gray_bg">#F3F3F3</color>
+    <color name="light_gray">#858F92</color>
+    <color name="hotword_gray_color">#eeeeee</color>
+    <color name="red_money_color">#9AC3F9</color>
+    <color name="blue">#009e96</color>
+    <color name="free_color">#26A6A1</color>
+    <color name="downloading_color">#049E97</color>
+    <color name="desc_color">#727171</color>
+    <color name="ori_price_color">#b5b5b6</color>
+    <color name="transparent_background">#80000000</color>
+    <color name="transparent_color">#00000000</color>
+    
+     <color name="text_pbg60">#ff606060</color>
+    <color name="text_pbg90">#ff909090</color>
+    
+    <color name="app_bg">#f3f5f7</color>
+    <color name="first_page_cata">#333333</color>
+    
+    <color name="standard_name">#000</color>
+  
+     <!-- 标题 -->
+    <color name="topbar_text">#FFFFFFFF</color>
+       <color name="topbar_bg">#47a0db</color>
+    <color name="dp_c_item_selected">#ffe2e2e2</color>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ToggleButton xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="42dp"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:text="ToggleButton"
+    android:textOff="@null"
+    android:textOn="@null"
+    android:drawableRight="@drawable/expand_tab_selector"
+    android:background="#FFF"
+    android:singleLine="true"
+    android:paddingRight="15dp"
+    android:textSize="15dp"
+    android:textColor="#FF969696">
+
+</ToggleButton>

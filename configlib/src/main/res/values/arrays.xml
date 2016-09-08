@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="select_filter_btns">
+        <item name="btn1">所属地区</item>
+        <item name="btn2">资质条件</item>
+    </array>
+
+</resources>

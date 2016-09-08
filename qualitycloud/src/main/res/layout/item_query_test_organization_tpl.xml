@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/window_bg"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/divide_line" />
+
+    <LinearLayout
+        android:id="@+id/item_query_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/default_button_white"
+        android:orientation="vertical"
+        android:padding="15dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/name_query_test"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="国家茶及茶制品质量监督检验中心"
+                android:textColor="@color/text_bg20"
+                android:textSize="13.4sp" />
+
+            <TextView
+                android:id="@+id/state"
+                android:layout_width="wrap_content"
+                android:layout_height="21.1dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/green_oval_bg"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="资质有效"
+                android:textColor="@color/white"
+                android:textSize="13.4sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/like_test_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/icon_brand_like_n" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="距离："
+                android:textColor="@color/text_bg90"
+                android:textSize="13.4sp" />
+
+            <TextView
+                android:id="@+id/distance_query_test"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+             
+                android:text="21.6km"
+                android:textColor="@color/text_bg90"
+                android:textSize="13.4sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="地址："
+                android:textColor="@color/text_bg90"
+                android:textSize="13.4sp" />
+
+            <TextView
+                android:id="@+id/address_query_test"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+           
+                android:text="贵州省遵义市汇川区北海路遵义检测院"
+                android:textColor="@color/text_bg90"
+                android:textSize="13.4sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/divide_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:background="#fafafa"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/phone_query_test_rl"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/default_button_white" >
+
+            <TextView
+                android:id="@+id/phone_query_test"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawableLeft="@drawable/icon_query_phone"
+                android:drawablePadding="10dp"
+                android:gravity="bottom"
+                android:text="电话咨询"
+                android:textColor="@color/text_bg20"
+                android:textSize="13.4sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/divide_line" />
+
+        <RelativeLayout
+            android:id="@+id/navigation_query_test_rl"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/default_button_white" >
+
+            <TextView
+                android:id="@+id/navigation_query_test"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawableLeft="@drawable/icon_navigation"
+                android:drawablePadding="10dp"
+                android:gravity="bottom"
+                android:text="一键导航"
+                android:textColor="@color/text_bg20"
+                android:textSize="13.4sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/divide_line" />
+
+</LinearLayout>

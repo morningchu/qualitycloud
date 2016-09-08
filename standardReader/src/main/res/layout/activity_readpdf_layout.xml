@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <com.pdfread.standardreader.views.BaseLibTopbarView
+        android:id="@+id/topbar_pdf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    
+    <include
+        android:id="@+id/title_readpdf_layout"
+        layout="@layout/top_title_layout" 
+        android:visibility="gone"/>
+    
+    <FrameLayout
+        android:id="@+id/readpdf_frame"
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:layout_below="@id/topbar_pdf"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="15dp"
+    android:paddingTop="20dp"
+    android:paddingRight="15dp"
+    android:paddingBottom="20dp" >
+
+    <TextView
+        android:id="@+id/name_brand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="贵州远程制药有限责任公司（远程牌抗妇炎胶囊）"
+        android:textColor="@color/text_bg20"
+        android:textSize="13.4sp" />
+
+</LinearLayout>

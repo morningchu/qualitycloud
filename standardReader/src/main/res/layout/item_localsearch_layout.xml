@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+    <RelativeLayout
+        android:id="@+id/rl_item_localsearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="25dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="25dp" >
+        
+        <RelativeLayout 
+            android:id="@+id/rl_item_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:background="@android:color/white"
+            >
+            
+            <ImageView 
+                android:id="@+id/img_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon02"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                />
+            
+            <TextView 
+                android:id="@+id/tv_2_item" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_below="@id/img_item"
+                android:layout_centerHorizontal="true"
+                android:paddingTop="5dp"
+                android:maxLength="3"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:textColor="@color/first_page_cata"
+                />
+            
+        </RelativeLayout>
+        
+        <TextView
+            android:id="@+id/stand_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/rl_item_icon"
+            android:layout_marginTop="15dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text=""
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/stand_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/stand_name"
+            android:layout_below="@id/stand_name"
+            android:layout_marginTop="8dp"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:maxLength="15"
+            android:text=""
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/stand_name"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="8dp"
+            android:text=""
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/stand_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/stand_name"
+            android:layout_below="@id/stand_code"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/effective" />
+    </RelativeLayout>
+
+</RelativeLayout>

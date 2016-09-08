@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <!-- 二维码 -->
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="two_code_title">#2f2f2f</color>
+    <color name="dp_green">#ff30B880</color>
+    <!-- 下拉刷新 -->
+    <color name="dp_divider_line">#15000000</color>
+    <color name="dp_c_item_selected">#ffe2e2e2</color>
+    <color name="dp_c_item_unselected">#ffFBFBFB</color>
+    <color name="dp_white">#ffffffff</color>
+    <color name="dp_black">#ff000000</color>
+    <color name="dp_black_light_1">#ff333333</color>
+    <color name="dp_black_light_2">#ff4a4a4a</color>
+    <color name="dp_gray">#ff9B9B9B</color>
+    <color name="dp_red">#ffEB6563</color>
+    <color name="dp_blue">#ff037AFF</color>
+    
+
+</resources>

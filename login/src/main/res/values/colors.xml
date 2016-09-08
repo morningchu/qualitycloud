@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 主体文字颜色 -->
+    <color name="text_bg20">#FF202020</color>
+    <color name="text_bg00">#FFFFFFFF</color>
+    <color name="text_bg60">#FF606060</color>
+    <color name="text_bg90">#FF909090</color>
+    <color name="text_bgb0">#FFb0b0b0</color>
+    <color name="text_red">#FFE26461</color>
+    <color name="text_tuoming">#7fcccccc</color>
+    <!-- 灰色 -->
+    <color name="grey">#cccccc</color>
+
+</resources>

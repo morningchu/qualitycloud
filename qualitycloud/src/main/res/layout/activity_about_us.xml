@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true" 
+        android:fadingEdge="none"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="244dp"
+                android:background="@color/topic"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <midian.baselib.widget.BaseLibTopbarView
+                    android:id="@+id/topbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/about_us" />
+
+                    <TextView
+                        android:id="@+id/version"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginBottom="15dp"
+                        android:layout_marginRight="15dp"
+                        android:text="beta 1.0.0"
+                        android:textColor="@color/white"
+                        android:textSize="13.4sp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <WebView
+                android:id="@+id/webView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp" />
+
+            <TextView
+                android:id="@+id/titile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="关于质量云"
+                android:textColor="@color/text_bg20"
+                android:textSize="17.3sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="15dp"
+                android:text="质量的内容十分丰富，随着社会经济和科学技术的发展，也在不断充实、完善和深化，同样，人们对质量概念的认识也经历了一个不断发展和深化的历史过程。主要有代表性的概念有 （一）朱兰的定义 美国著名的质量管理专家朱兰（J.M.Juran）博士从顾客的角度出发，提出了产品质量就是产品的适用性。即产品在使用时能成功地满足用户需要的程度。用户对产品的基本要求就是适用，适用性恰如其分地表达了质量的内涵。 （二）美国质量专家的质量定义 美国质量管理专家克劳斯比从生产者的角度出发，曾把质量概括为“产品符合规定要求的程度”；美国的质量管理大师德鲁克认为“质量就是满足需要”；[1]  全面质量控制的创始人菲根堡姆认为，产品或服务质量是指营销、设计、制造、维修中各种特性的综合体。"
+                android:textColor="@color/text_bg60"
+                android:textSize="13.4sp"
+                android:visibility="gone" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

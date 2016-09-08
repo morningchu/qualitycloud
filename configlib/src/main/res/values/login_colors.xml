@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 登录按钮颜色 -->
+    <color name="login_btn_n">#ff96c53f</color>
+    <color name="login_btn_p">#7f96c53f</color>
+    <color name="register_btn_n">#ff47a0db</color>
+    <color name="register_btn_p">#7f47a0db</color>
+    
+    <color name="login_text_topic">#333333</color>
+    <color name="login_edit">#9b9b9b</color>
+
+</resources>

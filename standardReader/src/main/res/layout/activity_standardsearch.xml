@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+    
+    <com.pdfread.standardreader.views.BaseLibTopbarView
+        android:id="@+id/topbar_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    
+    <include
+        android:id="@+id/search_title_layout"
+        layout="@layout/top_title_layout" 
+        android:visibility="gone"/>
+    
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/white"
+        >
+        
+        <TextView 
+            android:id="@+id/tv_localstandard"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="贵州地方标准"
+            android:textSize="17sp"
+            android:drawablePadding="8dp"
+            android:drawableBottom="@drawable/blue_bar"
+            />
+        
+        <TextView 
+            android:id="@+id/tv_relativestandard"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="相关标准推介"
+            android:textSize="17sp"
+            android:drawablePadding="8dp"
+            />
+        
+    </LinearLayout>
+    
+    <FrameLayout 
+        android:id="@+id/fl_search"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<resources>
+
+    <dimen name="header_height">60dp</dimen>
+    <dimen name="footer_height">90dp</dimen>
+    <dimen name="footer_padding">10dp</dimen>
+
+    <!-- 字体 -->
+    <dimen name="textSP10">10sp</dimen>
+    <dimen name="textSP11">11sp</dimen>
+    <dimen name="textSP12">12sp</dimen>
+    <dimen name="textSP13">13sp</dimen>
+    <dimen name="textSP14">14sp</dimen>
+    <dimen name="textSP15">15sp</dimen>
+    <dimen name="textSP16">16sp</dimen>
+    <dimen name="textSP17">17sp</dimen>
+    <dimen name="textSP18">18sp</dimen>
+    <dimen name="textSP20">20sp</dimen>
+    <dimen name="textSP22">22sp</dimen>
+    <dimen name="textSP24">24sp</dimen>
+    <dimen name="textSP26">26sp</dimen>
+    <dimen name="textSP28">28sp</dimen>
+    <dimen name="textSP30">30sp</dimen>
+
+</resources>

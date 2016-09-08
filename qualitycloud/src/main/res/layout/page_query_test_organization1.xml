@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/test1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawablePadding="15dp"
+                android:drawableTop="@drawable/bg_test15"
+                android:gravity="center_horizontal"
+                android:text="食品"
+                android:textColor="@color/text_bg22"
+                android:textSize="13.4sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/test2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawablePadding="15dp"
+                android:drawableTop="@drawable/bg_test19"
+                android:gravity="center_horizontal"
+                android:text="环境与环保"
+                android:textColor="@color/text_bg22"
+                android:textSize="13.4sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/test222"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawablePadding="15dp"
+                android:drawableTop="@drawable/bg_test12"
+                android:gravity="center_horizontal"
+                android:text="建材材料"
+                android:textColor="@color/text_bg22"
+                android:textSize="13.4sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/test3"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:paddingTop="13.4sp"
+                android:drawablePadding="15dp"
+                android:drawableTop="@drawable/bg_test16"
+                android:gravity="center_horizontal"
+                android:text="建设工程及室内空气"
+                android:textColor="@color/text_bg22"
+                android:textSize="13.4sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/test4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawablePadding="15dp"
+                android:drawableTop="@drawable/bg_test3"
+                android:gravity="center_horizontal"
+                android:text="纺织服装"
+                android:textColor="@color/text_bg22"
+                android:textSize="13.4sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/test5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawablePadding="15dp"
+                android:drawableTop="@drawable/bg_test2"
+                android:gravity="center_horizontal"
+                android:text="化工"
+                android:textColor="@color/text_bg22"
+                android:textSize="13.4sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="gone" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawablePadding="15dp"
+                android:drawableTop="@drawable/bg_test4"
+                android:gravity="center_horizontal"
+                android:text="电力"
+                android:textColor="@color/text_bg22"
+                android:textSize="13.4sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/test6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawablePadding="15dp"
+                android:drawableTop="@drawable/bg_test7"
+                android:gravity="center_horizontal"
+                android:text="机动车安检"
+                android:textColor="@color/text_bg22"
+                android:textSize="13.4sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="gone" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawablePadding="15dp"
+                android:drawableTop="@drawable/bg_test6"
+                android:gravity="center_horizontal"
+                android:text="水利海洋供排水"
+                android:textColor="@color/text_bg22"
+                android:textSize="13.4sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/test7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawablePadding="15dp"
+                android:drawableTop="@drawable/bg_test17"
+                android:gravity="center_horizontal"
+                android:text="卫生医药"
+                android:textColor="@color/text_bg22"
+                android:textSize="13.4sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="gone" >
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawablePadding="15dp"
+                android:drawableTop="@drawable/bg_test16"
+                android:gravity="center_horizontal"
+                android:text="建设工程及室内空气"
+                android:textColor="@color/text_bg22"
+                android:textSize="13.4sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/test8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawablePadding="15dp"
+                android:drawableTop="@drawable/bg_test8"
+                android:gravity="center_horizontal"
+                android:text="电子信息"
+                android:textColor="@color/text_bg22"
+                android:textSize="13.4sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/test9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawablePadding="15dp"
+                android:drawableTop="@drawable/bg_test24"
+                android:gravity="center_horizontal"
+                android:text="综合"
+                android:textColor="@color/text_bg22"
+                android:textSize="13.4sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="gone" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawablePadding="15dp"
+                android:drawableTop="@drawable/bg_test9"
+                android:gravity="center_horizontal"
+                android:text="石油"
+                android:textColor="@color/text_bg22"
+                android:textSize="13.4sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

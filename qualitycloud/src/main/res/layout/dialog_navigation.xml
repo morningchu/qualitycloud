@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/center_dialog_bg"
+        android:orientation="vertical" >
+
+        <!-- 使用百度地图导航 -->
+
+        <Button
+            android:id="@+id/baidu_btn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/default_button"
+            android:text="使用百度导航"
+            android:textColor="@color/text_bg22"
+            android:textSize="15sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/divide_line" />
+
+        <!-- 使用高德地图导航 -->
+
+        <Button
+            android:id="@+id/gaode_btn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/default_button"
+            android:text="使用高德导航"
+            android:textColor="@color/text_bg22"
+            android:textSize="15sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/divide_line"
+            android:visibility="gone" />
+
+        <!-- 使用谷歌地图导航 -->
+
+        <Button
+            android:id="@+id/google_btn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/default_button"
+            android:text="使用谷歌地图导航 "
+            android:textColor="@color/text_bg22"
+            android:textSize="15sp"
+            android:visibility="gone" />
+    </LinearLayout>
+    <!-- 下面按钮 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/center_dialog_bg"
+        android:orientation="horizontal" >
+
+        <!-- 取消 -->
+
+        <Button
+            android:id="@+id/cancel_btn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/center_dialog_bg"
+            android:text="@string/cancel"
+            android:textColor="@color/text_bg22"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">login</string>
+
+    <!-- 登录注册 -->
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="third_login">第三方账号登录</string>
+    <string name="account">账号</string>
+    <string name="hint_account">请输入您的手机号</string>
+    <string name="password">密码</string>
+    <string name="hint_password">请输入您的密码</string>
+    <string name="forget_password1"><u>忘记密码？</u></string>
+    <string name="forget_password">忘记密码</string>
+    <string name="start_login">立即登录</string>
+    <string name="hint_account_not_empty">账号不能为空</string>
+    <string name="hint_account_error">账号格式不正确</string>
+    <string name="hint_pwd_not_empty">密码不能为空</string>
+    <string name="hint_pwd_error">密码错误</string>
+    <string name="hint_no_account">账号不存在</string>
+    <string name="hint_error">发生错误啦，稍后再试试吧</string>
+    <string name="hint_pwd2">请再次输入相同的密码</string>
+    <string name="hint_auth_code_not_empty">验证码不能为空</string>
+    <string name="hint_phone_not_empty">手机号码不能为空</string>
+    <string name="hint_phone_error">手机号码格式不正确</string>
+    <string name="hint_send_code_failed">验证码发送失败</string>
+    <string name="hint_time_text">秒</string>
+    <string name="hint_pwd_status_failed">重置密码错误，请重试</string>
+    <string name="hint_pwd_status_ok">重置密码成功</string>
+    <string name="auth_code">获取验证码</string>
+    <string name="hint_auth_code">请输入短信验证码</string>
+    <string name="next">下一步</string>
+    <string name="nick_name">姓名</string>
+    <string name="hint_please_input_your_name">请输入您的真实姓名</string>
+    <string name="note_verify">短信验证</string>
+    <string name="hint_modify_password_verify_phone">修改密码须验证您的手机号</string>
+    <string name="reset_password">重置密码</string>
+    <string name="reply">重复</string>
+    <string name="hint_please_reset_your_password">请重新设置您的密码</string>
+    <string name="hint_please_input_your_password_again">请再次输入您的密码</string>
+    <string name="finish">完成</string>
+    <string name="finish_register">完成注册</string>
+    <string name="select_other">选择其它</string>
+    <string name="exit_text">再按一次退出应用</string>
+    <string name="login_qq">使用qq登录</string>
+    <string name="login_weixin">使用微信登录</string>
+
+    <!-- 个人信息 -->
+    <string name="person_center">个人中心</string>
+    <string name="person_infomation">个人信息</string>
+    <string name="set">设置</string>
+    <string name="head">头像</string>
+    <string name="name">名字</string>
+    <string name="sex">性别</string>
+    <string name="age">年龄</string>
+    <string name="sign">个性签名</string>
+    <string name="hint_sign">路上遇一个自在如风的少年</string>
+    <string name="exit">退出登录</string>
+    <string name="hint_please_input_nickname">请输入昵称</string>
+    <string name="hint_input_signature">请输入个性签名</string>
+    <string name="man">男</string>
+    <string name="woman">女</string>
+    <string name="report_ok">举报成功</string>
+    <string name="head_error">上传头像失败啦，稍后再试试吧</string>
+    <string name="head_edit_ok">头像已修改</string>
+
+</resources>

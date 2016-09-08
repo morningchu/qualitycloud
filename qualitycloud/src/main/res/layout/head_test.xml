@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <midian.baselib.widget.SearchEditText
+        android:id="@+id/search_expandtab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <midian.baselib.widget.FlowLayout
+        android:id="@+id/flowLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+  />
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:horizontalSpacing="15dp"
+        android:listSelector="@color/white"
+        android:numColumns="4"
+        android:padding="15dp"
+        android:visibility="gone"
+        android:focusable="true"
+        android:verticalSpacing="15dp" />
+
+</LinearLayout>

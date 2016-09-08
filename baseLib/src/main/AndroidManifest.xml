@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.midian.baselib"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <!-- 友盟 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <!-- baselib -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-feature android:name="android.hardware.autofocus" />
+
+    <application
+        android:name="midian.baselib.app.AppContext"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+
+     <!--   &lt;!&ndash; 友盟 &ndash;&gt;
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="55f1395167e58e5004003e22" >
+        </meta-data>
+        &lt;!&ndash; 友盟 &ndash;&gt;
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="danpin" />-->
+
+        <activity
+            android:name="midian.baselib.common.MipcaActivityCapture"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+
+        </activity>
+        <activity
+            android:name="midian.baselib.common.WebViewActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

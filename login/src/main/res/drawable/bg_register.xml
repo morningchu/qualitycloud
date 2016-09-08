@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:exitFadeDuration="@android:integer/config_shortAnimTime">
+
+    <item android:state_pressed="true"><shape android:shape="rectangle">
+            <solid android:color="@color/register_btn_p" />
+
+            <corners android:radius="5dp" />
+
+            <size android:height="42.2dp" android:width="192dp" />
+        </shape></item>
+    <item><shape android:shape="rectangle">
+            <solid android:color="@color/register_btn_n" />
+
+            <corners android:radius="5dp" />
+
+            <size android:height="42.2dp" android:width="192dp" />
+        </shape></item>
+
+</selector>

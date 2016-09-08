@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="green">#ff84bf41</color>
+    <color name="red">#FFE26461</color>
+    <color name="yellow">#FFF1C40E</color>
+    <color name="choose_eara_item_press_color">#f4f4f4</color>
+    <color name="popup_main_background">#26000000</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="no_color">#FFFFFFFF</color>
+
+</resources>

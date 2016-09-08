@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <issue id="ScrollViewSize">
+        <ignore path="res/layout/activity_brand_resport_detail.xml" />
+    </issue>
+</lint>

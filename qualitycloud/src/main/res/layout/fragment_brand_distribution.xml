@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="-2dp"
+            android:layout_y="4dp"
+            android:src="@drawable/icon_brand_map" />
+
+        <TextView
+            android:id="@+id/city1_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="16dp"
+            android:layout_y="100dp"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="12dp"
+            android:paddingTop="5dp"
+            android:text="威宁"
+            android:textColor="#ff212936"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/city1_2"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_x="53dp"
+            android:layout_y="100dp"
+            android:background="@drawable/bg_brands_map"
+            android:gravity="center"
+            android:text="999"
+            android:textColor="@color/white"
+            android:textSize="6sp" />
+
+        <TextView
+            android:id="@+id/city2_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="80dp"
+            android:layout_y="110dp"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="12dp"
+            android:paddingTop="5dp"
+            android:text="毕节"
+            android:textColor="#ff212936"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/city2_2"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_x="117dp"
+            android:layout_y="110dp"
+            android:background="@drawable/bg_brands_map"
+            android:gravity="center"
+            android:text="999"
+            android:textColor="@color/white"
+            android:textSize="6sp" />
+
+        <TextView
+            android:id="@+id/city3_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="148dp"
+            android:layout_y="133dp"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="12dp"
+            android:paddingTop="5dp"
+            android:text="贵阳"
+            android:textColor="#ff212936"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/city3_2"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_x="184dp"
+            android:layout_y="133dp"
+            android:background="@drawable/bg_brands_map"
+            android:gravity="center"
+            android:text="2"
+            android:textColor="@color/white"
+            android:textSize="6sp" />
+
+        <TextView
+            android:id="@+id/city4_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="29dp"
+            android:layout_y="156dp"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="12dp"
+            android:paddingTop="5dp"
+            android:text="六盘水"
+            android:textColor="#ff212936"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/city4_2"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_x="79dp"
+            android:layout_y="156dp"
+            android:background="@drawable/bg_brands_map"
+            android:gravity="center"
+            android:text="2"
+            android:textColor="@color/white"
+            android:textSize="6sp" />
+
+        <TextView
+            android:id="@+id/city5_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="38dp"
+            android:layout_y="228dp"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="12dp"
+            android:paddingTop="5dp"
+            android:text="黔西南"
+            android:textColor="#ff212936"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/city5_2"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_x="88dp"
+            android:layout_y="228dp"
+            android:background="@drawable/bg_brands_map"
+            android:gravity="center"
+            android:text="2"
+            android:textColor="@color/white"
+            android:textSize="6sp" />
+
+        <TextView
+            android:id="@+id/city6_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="240dp"
+            android:layout_y="186dp"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="12dp"
+            android:paddingTop="5dp"
+            android:text="黔东南"
+            android:textColor="#ff212936"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/city6_2"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_x="290dp"
+            android:layout_y="186dp"
+            android:background="@drawable/bg_brands_map"
+            android:gravity="center"
+            android:text="2"
+            android:textColor="@color/white"
+            android:textSize="6sp" />
+
+        <TextView
+            android:id="@+id/city7_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="264dp"
+            android:layout_y="98dp"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="12dp"
+            android:paddingTop="5dp"
+            android:text="同仁"
+            android:textColor="#ff212936"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/city7_2"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_x="300dp"
+            android:layout_y="98dp"
+            android:background="@drawable/bg_brands_map"
+            android:gravity="center"
+            android:text="2"
+            android:textColor="@color/white"
+            android:textSize="6sp" />
+
+        <TextView
+            android:id="@+id/city8_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="196dp"
+            android:layout_y="69dp"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="12dp"
+            android:paddingTop="5dp"
+            android:text="遵义"
+            android:textColor="#ff212936"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/city8_2"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_x="231dp"
+            android:layout_y="69dp"
+            android:background="@drawable/bg_brands_map"
+            android:gravity="center"
+            android:text="2"
+            android:textColor="@color/white"
+            android:textSize="6sp" />
+
+        <TextView
+            android:id="@+id/city9_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="152dp"
+            android:layout_y="39dp"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="12dp"
+            android:paddingTop="5dp"
+            android:text="仁怀"
+            android:textColor="#ff212936"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/city9_2"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_x="188dp"
+            android:layout_y="39dp"
+            android:background="@drawable/bg_brands_map"
+            android:gravity="center"
+            android:text="200"
+            android:textColor="@color/white"
+            android:textSize="6sp" />
+
+        <TextView
+            android:id="@+id/city10_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="180dp"
+            android:layout_y="165dp"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="12dp"
+            android:paddingTop="5dp"
+            android:text="贵安新区"
+            android:textColor="#ff212936"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/city10_2"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_x="244dp"
+            android:layout_y="165dp"
+            android:background="@drawable/bg_brands_map"
+            android:gravity="center"
+            android:text="2"
+            android:textColor="@color/white"
+            android:textSize="6sp" />
+
+        <TextView
+            android:id="@+id/city11_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="98dp"
+            android:layout_y="187dp"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="12dp"
+            android:paddingTop="5dp"
+            android:text="安顺"
+            android:textColor="#ff212936"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/city11_2"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_x="134dp"
+            android:layout_y="187dp"
+            android:background="@drawable/bg_brands_map"
+            android:gravity="center"
+            android:text="2"
+            android:textColor="@color/white"
+            android:textSize="6sp" />
+
+        <TextView
+            android:id="@+id/city12_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="191dp"
+            android:layout_y="230dp"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="12dp"
+            android:paddingTop="5dp"
+            android:text="黔南"
+            android:textColor="#ff212936"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/city12_2"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_x="227dp"
+            android:layout_y="230dp"
+            android:background="@drawable/bg_brands_map"
+            android:gravity="center"
+            android:text="20"
+            android:textColor="@color/white"
+            android:textSize="6sp" />
+    </AbsoluteLayout>
+
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<resources>
+
+    <style name="AppBaseTheme1" parent="android:Theme.Light.NoTitleBar"></style>
+
+    <style name="AppTheme1" parent="AppBaseTheme1">
+        <item name="android:windowBackground">@color/window_bg</item>
+    </style>
+
+    <!-- 用户评论RatingBar -->
+    <style name="common_ratingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/rating_bar</item>
+        <item name="android:maxWidth">105dp</item>
+        <item name="android:minWidth">105dp</item>
+        <item name="android:minHeight">21dp</item>
+        <item name="android:maxHeight">21dp</item>
+    </style>
+
+    <style name="bottom_dialog">
+        <item name="android:windowAnimationStyle">@style/animation_bottom_dialog</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="input_bottom_dialog">
+        <item name="android:windowAnimationStyle">@style/animation_bottom_dialog</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="confirm_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="confirm1_dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowFullscreen">false</item>
+    </style>
+
+
+    <style name="dialog_msg" >
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+
+    <style name="animation_bottom_dialog" parent="android:Animation">
+        <item name="@android:windowEnterAnimation">@anim/dp_bottom_dialog_enter</item>
+        <item name="@android:windowExitAnimation">@anim/dp_bottom_dialog_exit</item>
+    </style>
+
+</resources>
